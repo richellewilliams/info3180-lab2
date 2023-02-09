@@ -1,3 +1,75 @@
 body {
     padding-top: 5rem;
 }
+
+#page {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: #ABE7E3;
+    color: #2E1429;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+img {    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 100px 15px rgb(255, 255, 255);
+}
+
+h1 {
+    padding-top: 15px;
+}
+
+#bio {
+    text-align: center;
+    color: #8A8A8A;
+    padding: 10px 30px;
+}
+
+#profile-number-info {
+    display: flex;
+    width: 100%;
+    padding-left: 28px;
+    padding-bottom: 15px;
+}
+
+#profile-number-item {
+    text-align: left;
+    flex: 1;
+    padding-top: 15px;
+}
+
+#number {
+    font-weight: bold;
+}
+
+#profile-number-info {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#profile-number-item {
+    text-align: center;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+#btn {
+    background-color: #38D8CD;
+    color: #000000;
+    border: none;
+    padding: 5px 45px;
+    border-radius: 5px;
+    font-weight: 600;
+}
